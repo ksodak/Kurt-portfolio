@@ -1,0 +1,30 @@
+HTML, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #0010a1;
+    height: 50px;
+}
+
+nav a { 
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    text: bold;
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: #080808;
+    background: white;
+}
